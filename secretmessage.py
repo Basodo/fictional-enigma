@@ -1,13 +1,13 @@
-
-
 num_list = []
 
-letter_naar_cijfer = input("type secret message: ")
+def letters_naar_cijfers():
 
-for c in letter_naar_cijfer:
-    num_list.append(ord(c)-95)
+    secret_message = input("type secret message: ")
 
-print(num_list)
-
-
+    secret_message = secret_message.lower()
+    for x in secret_message:
+        num_list.append(ord(x)-96)
+        
+    ## hier zie je de cijfer code
+    #print(num_list)
 
