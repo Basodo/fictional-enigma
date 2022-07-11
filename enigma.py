@@ -5,10 +5,12 @@ from caesar_encrypt import caesar_cipher
 from keyboard import vercijfer
 from filter import filter
 from plugboard import plugtest
+from rotors import volgorde
 
 
 vercijfer()
 filter()
 #caesar_cipher(3)
 plugtest()
+volgorde()
 translate()
