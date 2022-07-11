@@ -2,9 +2,11 @@
 
 #num_list is de lijst met cijfers die door enigma wordt versleutelt
 num_list = []
+volgordestring = ""
 
 def vercijfer():
 
+    volgordestring = input("order of the rotors: ")
     secret_message = input("type secret message: ")
 
     secret_message = secret_message.lower()
